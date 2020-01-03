@@ -35,16 +35,16 @@ class App extends Component {
     })
 
 
-    /*this.setState({
+    this.setState({
       store: {
         lists: currentList,
         allcards: {
           ...this.state.store.allCards,
-          [cardyCard.id]: cardyCard,
-          
+          [cardyCard.id]: cardyCard,  
       }
-    }})
-    console.log(this.state);*/
+    }
+  })
+    console.log(this.state)
 
   }
   
